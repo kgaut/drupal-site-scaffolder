@@ -38,3 +38,6 @@ Same thing for themes, within **sites/\*/themes/contrib/** are excluded, those
 under **sites/\*/theme/** are not. 
 (ie : **sites/all/themes/my_theme** will be versioned but not 
 **sites/all/themes/contrib/zen**)
+
+##Sources, inspirations
+Based on the work of [webflo](https://github.com/webflo/) on [drupal-project](https://github.com/drupal-composer/drupal-project).
