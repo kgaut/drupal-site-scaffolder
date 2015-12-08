@@ -40,5 +40,16 @@ under **sites/\*/theme/** are not.
 (ie : **sites/all/themes/my_theme** will be versioned but not 
 **sites/all/themes/contrib/zen**)
 
+##Add contributed modules and themes
+Composer use the **[Drupal Packagist](https://packagist.drupal-composer.org/)** 
+repository in order to download / update modules.
+
+If you want to add a module or a theme, let's say 
+**[zen base theme](https://packagist.drupal-composer.org/packages/drupal/zen)** 
+for example type the following command : 
+```
+composer require drupal/zen
+```
+
 ##Thanks to
 Based on the work of [webflo](https://github.com/webflo/) on [drupal-project](https://github.com/drupal-composer/drupal-project).
