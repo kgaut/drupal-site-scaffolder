@@ -1,6 +1,17 @@
 {
   "name": "kgaut/drupal-site-scaffolder",
   "description": "Composer template for a drupal website",
+  "keywords": ["drupal","drupal7"],
+  "homepage": "https://github.com/kgaut/drupal-site-scaffolder",
+  "license": "GNU GPL V2",
+  "authors": [
+    {
+      "name": "Kevin Gautreau",
+      "email": "contact@kgaut.net",
+      "homepage": "https://www.kgaut.net",
+      "role": "Developer"
+    }
+  ],
   "minimum-stability": "dev",
   "prefer-stable": true,
   "repositories": [{
