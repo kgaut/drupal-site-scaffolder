@@ -40,5 +40,5 @@ under **sites/\*/theme/** are not.
 (ie : **sites/all/themes/my_theme** will be versioned but not 
 **sites/all/themes/contrib/zen**)
 
-##Sources, inspirations
+##Thanks to
 Based on the work of [webflo](https://github.com/webflo/) on [drupal-project](https://github.com/drupal-composer/drupal-project).
