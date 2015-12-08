@@ -1,0 +1,29 @@
+#IDE's stuff
+.idea
+
+#conf, db, and vendor folders
+db
+logs
+vendor
+
+!www
+www/*
+!www/.gitignore
+!www/.htaccess
+!www/sites
+www/sites/*
+!www/sites/*
+www/sites/*/settings.php
+
+www/sites/*/files/*
+!www/sites/*/files/.gitkeep
+
+!www/sites/*/tmp
+www/sites/*/tmp/*
+!www/sites/*/tmp/.gitkeep
+
+!www/sites/*/libraries
+!www/sites/*/modules
+www/sites/*/modules/contrib
+!www/sites/*/themes
+www/sites/*/themes/contrib
