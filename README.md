@@ -18,18 +18,16 @@ modules. (See [.gitignore section](#gitignore) for more information.)
 
 
 ##Get started
-[Download](https://github.com/kgaut/drupal-site-scaffolder/archive/7.x-1.x.zip), 
-or clone the project (download is preferable because you may want to use your 
-own versioning system).
 
-In the newly created folder launch :  
+Open a terminal and move to the folder you want to use, it should be empty, then 
+launch the command :
 
-```composer install```
+```composer create-project kgaut/drupal-site-scaffolder ./```
 
 The script is **loooong** and it does not output much, if you wish, you can use
 ```-vvv``` parameter in order to set it more verbose.
 
-```composer install -vvv```
+```composer create-project kgaut/drupal-site-scaffolder -vvv```
 
 ##.gitignore
 
