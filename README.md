@@ -26,6 +26,11 @@ In the newly created folder launch :
 
 ```composer install```
 
+The script is **loooong** and it does not output much, if you wish, you can use
+```-vvv``` parameter in order to set it more verbose.
+
+```composer install -vvv```
+
 ##.gitignore
 
 As said previously, the **.gitignore** file is here to prevent you to put under 
