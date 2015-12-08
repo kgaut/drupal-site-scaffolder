@@ -27,7 +27,7 @@ launch the command :
 The script is **loooong** and it does not output much, if you wish, you can use
 ```-vvv``` parameter in order to set it more verbose.
 
-```composer create-project kgaut/drupal-site-scaffolder -vvv```
+```composer create-project kgaut/drupal-site-scaffolder ./ -vvv```
 
 ##.gitignore
 
