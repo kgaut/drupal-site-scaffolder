@@ -10,7 +10,8 @@ This *scaffolder* require **composer**, a PHP dependencies manager.
 ##What it does ?
 It will download the last 7.x release of Drupal, and a list of useful modules.
 
-It copy the **default.settings.php** to **settings.php**, create the **files** and **tmp** folder (within **sites/default**).
+It copy the **default.settings.php** to **settings.php**, create the **files** 
+and **tmp** folder (within **sites/default**).
 
 The **.gitignore** file is here to prevent you to put under versioning core and 
 modules. (See [.gitignore section](#gitignore) for more information.)
@@ -50,6 +51,35 @@ for example type the following command :
 ```
 composer require drupal/zen
 ```
+
+##Use patchs for core and modules
+If you need to patch core or a module, thanks to **cweagans/composer-patches**, 
+you can !
+
+Within the **patches** section add and adapt the following example :
+
+```
+"drupal/twitter": {
+  "Allow to add tracking arguments to URL": "https://www.drupal.org/files/issues/twitter-post-allow-to-add-tracking-to-url-2582287-6.patch"
+}
+```
+
+The key specify the module to patch (here : **twitter**), then the array contains 
+a list of patches, the key is a description, the value is the path to the patch,
+it could be an url, or a relative path to a file on your system.
+
+Complete example : 
+```
+"patches": {
+  "drupal/twitter": {
+    "Allow to add tracking arguments to URL": "https://www.drupal.org/files/issues/twitter-post-allow-to-add-tracking-to-url-2582287-6.patch"
+  }
+}
+```
+
+ 
+
+
 
 ##Thanks to
 Based on the work of [webflo](https://github.com/webflo/) on [drupal-project](https://github.com/drupal-composer/drupal-project).
