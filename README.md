@@ -11,7 +11,7 @@ This *scaffolder* require **composer**, a PHP dependencies manager.
 It will download the last 7.x release of Drupal, and a list of useful modules.
 
 The **.gitignore** file is here to prevent you to put under versioning core and 
-modules. (See [.gitignore section](#.gitignore) for more information.)
+modules. (See [.gitignore section](#gitignore) for more information.)
 
 
 
