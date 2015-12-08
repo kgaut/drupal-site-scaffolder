@@ -10,9 +10,10 @@ This *scaffolder* require **composer**, a PHP dependencies manager.
 ##What it does ?
 It will download the last 7.x release of Drupal, and a list of useful modules.
 
+It copy the **default.settings.php** to **settings.php**, create the **files** and **tmp** folder (within **sites/default**).
+
 The **.gitignore** file is here to prevent you to put under versioning core and 
 modules. (See [.gitignore section](#gitignore) for more information.)
-
 
 
 ##Get started
