@@ -64,7 +64,8 @@
     "drupal/variable": "7.2.*",
     "drupal/views": "7.3.*",
     "drupal/xmlsitemap": "7.2.*",
-    "drupal/adminimal_theme": "7.1.*"
+    "drupal/adminimal_theme": "7.1.*",
+    "kgaut/ckeditor_responsive_plugin" : "dev-7.x-1.x"
   },
   "conflict": {
     "drupal/core": "8.*"
