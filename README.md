@@ -80,7 +80,8 @@ Complete example :
 }
 ```
 
- 
+##Links
+  - [The project on Packagist](https://packagist.org/packages/kgaut/drupal-site-scaffolder)
 
 
 
