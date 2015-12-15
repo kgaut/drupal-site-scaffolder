@@ -22,8 +22,7 @@ www/sites/*/files/*
 www/sites/*/tmp/*
 !www/sites/*/tmp/.gitkeep
 
-!www/sites/*/libraries
-!www/sites/*/modules
-www/sites/*/modules/contrib
-!www/sites/*/themes
-www/sites/*/themes/contrib
+!www/modules
+www/modules/contrib
+!www/themes
+www/themes/contrib
