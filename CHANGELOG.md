@@ -3,7 +3,7 @@
 - Update readme in order to prepare Drupal 8 version
 - Removing sql database creation script, before getting composer to wait for input
 
-## [7.0.5] - 2015-15-12
+## [7.0.5] - 2015-12-15
 ### Added
 - Changing Versioning naming to reflect drupal core version 
 - Add a changelog file
