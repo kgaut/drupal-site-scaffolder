@@ -14,13 +14,13 @@
 ### Added
 - Add a database creation script (issue #4)
 
-## [0.0.3] - 2015-15-08
+## [0.0.3] - 2015-12-08
 ### Added
 - Module - ckeditor_responsive_plugin
 
-## [0.0.2] - 2015-15-08
+## [0.0.2] - 2015-12-08
 ### Changed
 - Use of "composer create-project instead of composer install
 
-## [0.0.1] - 2015-15-08
+## [0.0.1] - 2015-12-08
 - First Release
