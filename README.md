@@ -16,6 +16,7 @@ and **tmp** folder (within **sites/default**).
 The **.gitignore** file is here to prevent you to put under versioning core and 
 modules. (See [.gitignore section](#gitignore) for more information.)
 
+At the end, a script ask you if you want to create a MySQL database.
 
 ##Get started
 
