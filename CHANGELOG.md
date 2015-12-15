@@ -1,9 +1,8 @@
-# Change Log
-All notable changes to this project will be documented in this file.
-This project adheres to [Semantic Versioning](http://semver.org/).
-
 ## [Unreleased]
+
+## [7.0.5] - 2015-15-12
 ### Added
+- Changing Versioning naming to reflect drupal core version 
 - Add a changelog file
 - Update readme about database creation
 - Update readme about core and module update
