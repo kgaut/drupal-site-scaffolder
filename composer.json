@@ -72,8 +72,7 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "sh ./scripts/post-install.sh",
-      "sh ./scripts/db-mysql-creation.sh"
+      "sh ./scripts/post-install.sh"
     ]
   },
   "config": {

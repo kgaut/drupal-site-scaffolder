@@ -1,7 +1,7 @@
 ## [Unreleased]
 ### Changed
 - Update readme in order to prepare Drupal 8 version
-- Fixed post command problem
+- Removing sql database creation script, before getting composer to wait for input
 
 ## [7.0.5] - 2015-15-12
 ### Added
