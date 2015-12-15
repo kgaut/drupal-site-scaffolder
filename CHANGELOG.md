@@ -6,6 +6,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Add a changelog file
 - Update readme about database creation
+- Update readme about core and module update
 
 ## [0.0.4] - 2015-15-12
 ### Added

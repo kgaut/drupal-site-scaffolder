@@ -56,6 +56,27 @@ for example type the following command :
 composer require drupal/zen
 ```
 
+##Update drupal core and contrib modules
+
+In order to update core and modules, you should launch the command
+```
+composer update
+```
+It will update the composer.lock file with the new version for updated 
+dependencies.
+
+If you prefer to check the available updates you can do a __dry run__ :  
+```
+composer update --dry-run
+```
+this will only simulate the changes.
+
+Also you can update only one dependency by specifying it : 
+
+```
+composer update drupal/zen
+```
+
 ##Use patchs for core and modules
 If you need to patch core or a module, thanks to **cweagans/composer-patches**, 
 you can !
