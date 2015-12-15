@@ -1,4 +1,7 @@
 ## [Unreleased]
+
+
+## [7.0.6] - 2015-12-15
 ### Changed
 - Update readme in order to prepare Drupal 8 version
 - Removing sql database creation script, before getting composer to wait for input
