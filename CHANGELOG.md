@@ -10,7 +10,7 @@
 - Update readme about database creation
 - Update readme about core and module update
 
-## [0.0.4] - 2015-15-12
+## [0.0.4] - 2015-12-15
 ### Added
 - Add a database creation script (issue #4)
 
