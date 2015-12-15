@@ -71,7 +71,8 @@
     "drupal/core": "8.*"
   },
   "scripts": {
-    "post-install-cmd": "sh ./scripts/post-install.sh"
+    "post-install-cmd": "sh ./scripts/post-install.sh",
+    "post-install-cmd": "sh ./scripts/db-mysql-creation.sh"
   },
   "config": {
     "vendor-dir": "vendor"
