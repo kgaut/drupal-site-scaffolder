@@ -21,9 +21,8 @@
   "require": {
     "composer/installers": "~1.0",
     "derhasi/composer-preserve-paths": "0.1.*",
-    "drupal/drupal": "7.*",
+    "drupal/drupal": "8.*",
     "davidbarratt/custom-installer": "dev-master",
-    "drupal/composer_vendor": "7.1.*",
     "cweagans/composer-patches": "^1.3"
   },
   "scripts": {
