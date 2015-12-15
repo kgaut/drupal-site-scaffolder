@@ -1,14 +1,14 @@
 # drupal-site-scaffolder
 
 ## Main goal
-Easily start a new Drupal project with main modules built over composer
+Easily start a new Drupal 7 / 8 project with main modules built over composer
 
 ## Dependencies
 This *scaffolder* require **composer**, a PHP dependencies manager.
 
 
 ##What it does ?
-It will download the last 7.x release of Drupal, and a list of useful modules.
+It will download the last 7.x or 8.x release of Drupal, and a list of useful modules.
 
 It copy the **default.settings.php** to **settings.php**, create the **files** 
 and **tmp** folder (within **sites/default**).
@@ -23,12 +23,28 @@ At the end, a script ask you if you want to create a MySQL database.
 Open a terminal and move to the folder you want to use, it should be empty, then 
 launch the command :
 
-```composer create-project kgaut/drupal-site-scaffolder ./```
+**For Drupal 7 :**
+```composer create-project kgaut/drupal-site-scaffolder ./ 7.*```
+
+**For Drupal 8 :**
+```composer create-project kgaut/drupal-site-scaffolder ./ 8.*```
 
 The script is **loooong** and it does not output much, if you wish, you can use
 ```-vvv``` parameter in order to set it more verbose.
 
-```composer create-project kgaut/drupal-site-scaffolder ./ -vvv```
+**For Drupal 7 :**
+```composer create-project kgaut/drupal-site-scaffolder ./ 7.* -vvv```
+
+**For Drupal 8 :**
+```composer create-project kgaut/drupal-site-scaffolder ./ 8.* -vvv```
+
+If you'd rather install it in a custom folder you can specify it with :
+
+**For Drupal 7 :**
+```composer create-project kgaut/drupal-site-scaffolder my_custom_folder 7.*```
+
+**For Drupal 8 :**
+```composer create-project kgaut/drupal-site-scaffolder my_custom_folder 8.*```
 
 ##.gitignore
 

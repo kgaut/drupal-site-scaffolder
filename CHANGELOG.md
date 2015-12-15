@@ -1,4 +1,6 @@
 ## [Unreleased]
+### Changed
+- Update readme in order to prepare Drupal 8 version
 
 ## [7.0.5] - 2015-15-12
 ### Added
