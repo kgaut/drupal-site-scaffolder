@@ -1,4 +1,4 @@
-# drupal-site-scaffolder
+# Drupal Site Scaffolder
 
 ## Main goal
 Easily start a new Drupal 7 / 8 project with main modules built over composer
