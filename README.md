@@ -24,27 +24,27 @@ Open a terminal and move to the folder you want to use, it should be empty, then
 launch the command :
 
 **For Drupal 7 :**
-```composer create-project kgaut/drupal-site-scaffolder ./ 7.*```
+```composer create-project kgaut/drupal-site-scaffolder ./ "7.*"```
 
 **For Drupal 8 :**
-```composer create-project kgaut/drupal-site-scaffolder ./ 8.*```
+```composer create-project kgaut/drupal-site-scaffolder ./ "8.*"```
 
 The script is **loooong** and it does not output much, if you wish, you can use
 ```-vvv``` parameter in order to set it more verbose.
 
 **For Drupal 7 :**
-```composer create-project kgaut/drupal-site-scaffolder ./ 7.* -vvv```
+```composer create-project kgaut/drupal-site-scaffolder ./ "7.*" -vvv```
 
 **For Drupal 8 :**
-```composer create-project kgaut/drupal-site-scaffolder ./ 8.* -vvv```
+```composer create-project kgaut/drupal-site-scaffolder ./ "8.*" -vvv```
 
 If you'd rather install it in a custom folder you can specify it with :
 
 **For Drupal 7 :**
-```composer create-project kgaut/drupal-site-scaffolder my_custom_folder 7.*```
+```composer create-project kgaut/drupal-site-scaffolder my_custom_folder "7.*"```
 
 **For Drupal 8 :**
-```composer create-project kgaut/drupal-site-scaffolder my_custom_folder 8.*```
+```composer create-project kgaut/drupal-site-scaffolder my_custom_folder "8.*"```
 
 ##.gitignore
 
