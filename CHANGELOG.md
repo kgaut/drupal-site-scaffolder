@@ -1,5 +1,6 @@
 ## [Unreleased]
-
+### Changed
+- Fixing doc about custom version installation
 
 ## [7.0.6] - 2015-12-15
 ### Changed
