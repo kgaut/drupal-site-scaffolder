@@ -1,4 +1,7 @@
 ## [Unreleased]
+### Changed
+- Add module drupal/piwik
+- Add module drupal/metatag
 - Fixing doc about custom version installation
 
 ## [8.0.1] - 2015-12-15
