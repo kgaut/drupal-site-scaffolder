@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+
+## [8.0.2] - 2016-01-05
 ### Changed
 - Fixing doc about module installation
 - Add module drupal/piwik
