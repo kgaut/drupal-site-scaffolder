@@ -2,6 +2,7 @@
 
 ## [Unreleased]
 ### Changed
+- Fixing doc about module installation
 - Add module drupal/piwik
 - Add module drupal/metatag
 - Fixing doc about custom version installation
