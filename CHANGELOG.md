@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [7.0.7] - 2016-01-05
 ### Changed
 - Fixing doc about module installation
 - Fixing doc about custom version installation
