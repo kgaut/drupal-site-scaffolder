@@ -69,7 +69,7 @@ If you want to add a module or a theme, let's say
 **[zen base theme](https://packagist.drupal-composer.org/packages/drupal/zen)** 
 for example type the following command : 
 ```
-composer require drupal/zen
+composer require drupal/zen:"7.*"
 ```
 
 ##Update drupal core and contrib modules
